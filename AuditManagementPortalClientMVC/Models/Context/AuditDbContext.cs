@@ -23,7 +23,7 @@ namespace AuditManagementPortalClientMVC.Models.Context
             {
                 var optionsBuilder = new DbContextOptionsBuilder<AuditDbContext>();
                 // pass your design time connection string here
-                optionsBuilder.UseSqlServer(@"Data Source=Project\SQLEXPRESS;Initial Catalog=AuditMVCPortal;persist security info=True;User Id=sab;Password=shag@123;");
+                optionsBuilder.UseSqlServer(@"Server=tcp:audit-management-shubhang.database.windows.net,1433;Initial Catalog=AuditMVCPortal;Persist Security Info=False;User ID=sab;Password=shag@123;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
                 return new AuditDbContext(optionsBuilder.Options);
             }
         }
