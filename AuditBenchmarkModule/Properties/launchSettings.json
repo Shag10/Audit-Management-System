@@ -20,7 +20,7 @@
     "AuditBenchmarkModule": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "api/AuditBenchmark",
+      "launchUrl": "https://audit-management-system.azurewebsites.net/api/AuditBenchmark",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
