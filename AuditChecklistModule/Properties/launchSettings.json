@@ -12,7 +12,7 @@
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "weatherforecast",
+      "launchUrl": "https://audit-management-system1.azurewebsites.net/api/Checklist",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
