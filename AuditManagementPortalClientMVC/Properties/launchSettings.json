@@ -3,7 +3,7 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:50517",
+      "applicationUrl": "https://audit-management-system1.azurewebsites.net",
       "sslPort": 44340
     }
   },
