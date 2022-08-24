@@ -19,7 +19,7 @@ namespace AuditManagementPortalClientMVC.Repository
             var request = new HttpRequestMessage
             {
                 Method = HttpMethod.Get,
-                RequestUri = new Uri("https://localhost:44399/api/AuditChecklist"),
+                RequestUri = new Uri("https://audit-management-system1.azurewebsites.net/api/AuditChecklist"),
 
                 Content = new StringContent(json, Encoding.UTF8, "application/json")
             };
