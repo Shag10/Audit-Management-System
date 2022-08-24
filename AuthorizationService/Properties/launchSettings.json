@@ -12,7 +12,7 @@
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "api/token",
+      "launchUrl": "https://audit-management-system1.azurewebsites.net/api/token",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
@@ -20,7 +20,7 @@
     "AuthorizationService": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "api/token",
+      "launchUrl": "https://audit-management-system1.azurewebsites.net/api/token",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
