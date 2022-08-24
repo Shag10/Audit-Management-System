@@ -14,7 +14,7 @@ namespace AuditManagementPortalClientMVC.Repository
             using (var httpClient = new HttpClient())
             {
 
-                using (var response = await httpClient.GetAsync("https://localhost:44399/api/token"))
+                using (var response = await httpClient.GetAsync("https://audit-management-system1.azurewebsites.net/api/token"))
                 {
                     string token = await response.Content.ReadAsStringAsync();
                     //TempData["token"] = token;
